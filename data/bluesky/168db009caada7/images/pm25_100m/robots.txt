@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+
+    <title>Home - FireSmoke.ca</title>
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/static/css/jumbotron.css" rel="stylesheet">
+    <link href="/static/css/firesmoke.css" rel="stylesheet">
+
+    <style type="text/css">
+      td.partnerlogo {
+        line-height: 1.5em;
+        margin: 15px;
+        padding: 15px;
+        vertical-align: center;
+      }
+    </style>
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.firesmoke.ca"]);
+      _paq.push(["setDomains", ["*.firesmoke.ca"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://analytics.wfrt.eoas.ubc.ca/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="https://analytics.wfrt.eoas.ubc.ca/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">FireSmoke.ca</a>
+        </div> <!-- navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="/">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" aria-expanded="false" role="button" data-toggle="dropdown" href="#">
+                Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/forecasts">Smoke Forecasts</a></li>
+                <li><a href="/forecasts/fireweather/current/">Fire Weather Forecasts</a></li>
+                <li><a href="/smartfire/">SmartFire</a></li>
+                <li><a href="/playground">Playground</a></li>
+                <li><a href="/data">Data</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" aria-expanded="false" role="button" data-toggle="dropdown" href="#">
+                Resources <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/research">Research</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLtOkkSuXfIKhLnCwKyV29JSS-xovQNmga">Tutorials</a></li>
+                <li><a href="/national-forum">National Forum</a></li>
+                <li><a href="/resources">Resource Directory</a></li>
+                <li><a href="/faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="/contact">Contact</a></li>
+            <li class="">
+	      <a href="/fr" title='Français'>Fr</a></div>
+	  </ul>
+          <!--
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+          -->
+        </div> <!-- navbar-collapse -->
+      </div> <!-- container -->
+    </div> <!-- navbar -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>FireSmoke Canada</h1>
+        <p>Welcome to the Canadian portal for information about wildland fire weather and smoke.
+           From here you can access the BlueSky Canada smoke forecasts, fire weather forecasts,
+           fire information, and the BlueSky Playground.  The Weather Forecast Research Team at
+           the University of British Columbia produces these research forecasts with support from multiple
+           agencies.  These tools and data serve professionals in the air quality, health & safety,
+           emergency management, and science & research communities as well as the public.  We are
+           also a community of practice that advances policies, plans & organizations to address
+           wildland fire and smoke issues.</p>
+        <!--
+        <p>Welcome to the Canadian portal for information and resources about
+           smoke from wildland fires.  We provide access to services and data
+           for professionals in the air quality, health &amp; safety, emergency
+           management, and science &amp; research communities as well as the
+           public.  We are also a community of practice that advances policies,
+           plans &amp; organizations to address wildland fire smoke issues.</p>
+        <p>Our primary service is smoke forecasts from wildland fires using the
+           BlueSky Canada system.  This system produces forecasts of hourly
+           ground-level concentrations of PM<sub>2.5</sub> smoke particles from
+           wildfires up to two days into the future.</p>
+        -->
+        <p>&nbsp;</p>
+        <div class="row">
+          <div class="col-md-6" style="text-align:center;">
+            <h2>Smoke Forecasts</h2>
+            <p>
+              <a href="/forecasts/current" title="Current forecast of ground-level PM2.5 concentrations">
+                <img class="img-thumbnail" src="/static/img/forecastmap-northamerica400x306.png" />
+              </a>
+            </p>
+            <p>High resolution, interactive forecasts of<br />
+               hourly, daily average and daily maximum<br />
+               concentrations of PM2.5 smoke particles<br />
+               at ground level from wildfires.<p>
+            <p>
+              <a class="btn btn-primary" href="/forecasts/current" role="button"
+                 title="Current forecast of ground-level PM2.5 concentrations">View current forecast »</a>
+            </p>
+            <p>&nbsp;</p>
+          </div>
+          <div class="col-md-6">
+            <div class="list-group">
+              <div class="list-group-item active"><h4>News</h4></div>
+
+              <div class="list-group-item">
+                <strong>Playground - Full Now Available</strong><br />
+                <em>September 23, 2024</em> &nbsp; &nbsp;
+                We are pleased to announce that <strong>BlueSky Playground - Full</strong> is now
+                available.  The Full version of our ad-hoc, on-demand smoke modelling tool uses
+                comprehensive fuel data to calculate emission rates, and includes an expert mode
+                to allow users to customize individual parameters.
+                You can access Playground - Full from the <a href="/playground/">Playground page</a>.
+              </div>
+
+              <div class="list-group-item">
+                <strong>New Playground Available</strong><br />
+                <em>July 3, 2024</em> &nbsp; &nbsp;
+                We are pleased to announce that a new, improved version of BlueSky Playground
+                is now available.  Playground is an ad-hoc, on-demand smoke modelling tool which
+                allows users to create emissions scenarios for prescribed burns and wildfires,
+                then model the resulting smoke dispersion.  You can access Playground - Express
+                from the <a href="/playground/">Playground page</a>; more advanced versions are
+                under development.
+              </div>
+
+              <div class="list-group-item">
+                <strong>Planned Maintenance Outage</strong><br />
+                <em>June 19, 2024</em> &nbsp; &nbsp;
+                A maintenance outage is planned for <strong>Thursday, June 20, 18:00-23:59 PDT
+                (UTC-7)</strong> to upgrade network infrastructure in the data centre.  Access to
+                firesmoke.ca may be interrupted during this time.
+              </div>
+
+              <div class="list-group-item">
+                <a class="btn btn-primary" href="/news" role="button">View older news »</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>SmartFire</h2>
+          <p>Fire data acquisition, reconciliation and GIS database.
+             Data streams with satellite hotspot detects and ground reports
+             are available for browsing and downloading in multiple formats
+             for use in modelling and forecasting systems.</p>
+          <p><a class="btn btn-primary" href="/smartfire/" role="button">Access SmartFire »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Playground</h2>
+          <p>Ad hoc, on-demand smoke modelling tool.  Create emissions scenarios for
+             prescribed burns and wildfires, then model and view the resulting
+             smoke dispersion forecast.</p>
+          <p><a class="btn btn-primary" href="/playground" role="button">Access Playground »</a></p>
+         </div>
+         <div class="col-md-4">
+          <h2>Fire Weather Forecasts</h2>
+          <p>Interactive, high-resolution Fire Weather Index forecasts using gridded numerical weather
+             prediction data for use in wildfire models and wildfire incident command briefings.</p>
+          <p><a class="btn btn-primary" href="/forecasts/fireweather/current/" role="button">Access FWF »</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2>Partners</h2>
+
+      <div class="row">
+        <div class="col-md-12">
+          <table align="center">
+            <tr>
+              <td><h4>Current operations supported by:</h4></td>
+            </tr>
+          </table>
+          <table align="center">
+            <tr>
+              <td class="partnerlogo"><img src="/static/img/bcgov.gif" alt="Government of British Columbia" width="163" height="58" /></td>
+              <td class="partnerlogo"><img src="/static/img/Alberta.png" alt="Government of Alberta" width="142" height="40" /></td>
+              <td class="partnerlogo"><img src="/static/img/gnwt-logo.png" alt="Government of Northwest Territories" height="55" /></td>
+              <td class="partnerlogo"><img src="/static/img/Canada.NR.jpg" alt="Natural Resources Canada" width="138" height="55" /></td>
+              <td class="partnerlogo"><img src="/static/img/UBC.gif" alt="University of British Columbia" width="48" height="65" /></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>&nbsp;</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <table align="center">
+            <tr>
+              <td><h4>Development & past operations supported by:</h4></td>
+            </tr>
+          </table>
+          <table align="center">
+            <tr>
+              <td class="partnerlogo"><img src="/static/img/bcgov.gif" alt="Government of British Columbia" width="163" height="58" /></td>
+              <td class="partnerlogo"><img src="/static/img/Alberta.png" alt="Government of Alberta" width="142" height="40" /></td>
+            </tr>
+          </table>
+          <table align="center">
+            <tr>
+              <td class="partnerlogo"><img src="/static/img/UBC.gif" alt="University of British Columbia" width="78" height="106" /></td>
+              <td class="partnerlogo"><img src="/static/img/Canada.NR.gif" alt="Natural Resources Canada" width="275" height="94" /></td>
+              <td class="partnerlogo"><img src="/static/img/USFS.jpg" alt="United States Forest Service" width="96" height="106" /></td>
+            </tr>
+          </table>
+          <table align="center">
+            <tr>
+              <td class="partnerlogo"><img src="/static/img/Manitoba-Health.gif" alt="Manitoba Health" width="180" height="51" /></td>
+              <td class="partnerlogo"><img src="/static/img/Saskatchewan.gif" alt="Saskatchewan Ministry of Environment" width="165" height="76" /></td>
+              <td class="partnerlogo"><img src="/static/img/Ontario.png" alt="Government of Ontario" width="160" height="55" /></td>
+            </tr>
+          </table>
+          <table align="center">
+            <tr>
+              <td class="partnerlogo"><img src="/static/img/Canada.gif" alt="Government of Canada" width="180" height="53" /></td>
+              <td class="partnerlogo"><img src="/static/img/CSSP.gif" alt="Canadian Safety and Security Program" width="180" height="37" /></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>© BlueSky Canada 2021</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap requires jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-103958338-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- end Google Analytics -->
+
+  </body>
+</html>
+
+
