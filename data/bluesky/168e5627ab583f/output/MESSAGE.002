@@ -1,0 +1,1364 @@
+ Simulation Date (CCYYMMDD): 20251007
+ Simulation Time (HHMMSS.S): 191209.787
+ WARNING metini: MUBA and/or MUPE not found in data (kg,kt)           1           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+ Simulation Date (CCYYMMDD): 20251007
+ Simulation Time (HHMMSS.S): 191210.256
+ WARNING metini: MUBA and/or MUPE not found in data (kg,kt)           2           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+ 
+   KG   KT DATA  SIZE   NX   NY
+    1    1 AWRF   4.0  642  840
+    1    2 AWRF   4.0  642  840
+ 
+  NOTICE   main: number meteo grids and times -            1           2
+ Initial call to rdizsg to retrieve nlvl
+ rdizsg: zsg model levels not changed
+  
+ HYSPLIT
+ HYSPLIT version: hysplit.v5.2.3
+ Last Changed Date: 2022-08-09
+ with boundary point fix by rcs
+ ------------- Start Namelist configuration -------------------
+ Internal grid parameters (nlvl,aa,bb,cc):           33   10.0000000      -10.0000000       10.0000000    
+&SETUP
+ INITD=0          ,
+ KHMAX=72         ,
+ NUMPAR=3000       ,
+ MAXPAR=10000000   ,
+ MAXDIM=1          ,
+ QCYCLE=  1.00000000    ,
+ P10F=  1.00000000    ,
+ KMIXD=0          ,
+ KMIX0=150        ,
+ FRME= 0.100000001    ,
+ FRMR=  0.00000000    ,
+ KRND=6          ,
+ DELT=  0.00000000    ,
+ KDEF=0          ,
+ TKERD= 0.180000007    ,
+ TKERN= 0.180000007    ,
+ NDUMP=0          ,
+ NCYCL=0          ,
+ TRATIO= 0.750000000    ,
+ ISOT=-99        ,
+ MGMIN=10         ,
+ KMSL=0          ,
+ NSTR=0          ,
+ MHRS=0          ,
+ NVER=0          ,
+ CPACK= 99*1          ,
+ CMASS=0          ,
+ ICHEM=0          ,
+ EFILE="EMISS.CFG                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ",
+ VSCALE=  200.000000    ,
+ VSCALES=  5.00000000    ,
+ VSCALEU=  200.000000    ,
+ K10M=1          ,
+ VDIST="VMSDIST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ KHINP=0          ,
+ PINBC="PARINBC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ TOUT=0          ,
+ TM_PRES=0          ,
+ TM_TPOT=0          ,
+ TM_TAMB=0          ,
+ TM_RAIN=0          ,
+ TM_MIXD=0          ,
+ TM_TERR=0          ,
+ HSCALE=  10800.0000    ,
+ TM_DSWF=0          ,
+ TM_RELH=0          ,
+ TM_SPHU=0          ,
+ TM_MIXR=0          ,
+ DXF=  1.00000000    ,
+ DYF=  1.00000000    ,
+ DZF=  9.99999978E-03,
+ PINPF="PARINIT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ POUTF="PARDUMP.002                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+ NINIT=0          ,
+ KAGL=0          ,
+ KPUFF=0          ,
+ KBLT=2          ,
+ KZMIX=0          ,
+ TVMIX=  1.00000000    ,
+ KBLS=1          ,
+ CONAGE=24         ,
+ KSPL=1          ,
+ FRHS=  1.00000000    ,
+ FRVS=  9.99999978E-03,
+ FRTS= 0.100000001    ,
+ FRHMAX=  3.00000000    ,
+ SPLITF=  1.00000000    ,
+ MESSG="MESSAGE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ NBPTYP=1          ,
+ RHB=80         ,
+ RHT=60         ,
+ OUTDT=0          ,
+ DECAY=1          ,
+ KWET=1          ,
+ KRAND=2          ,
+ CAPEMIN= -1.00000000    ,
+ TKEMIN=  1.00000005E-03,
+ URATIO=  5.87330008    ,
+ WBWR=  0.00000000    ,
+ WBWF=  0.00000000    ,
+ WBBH=  0.00000000    ,
+ SEED=0          ,
+ GEMAGE=48         ,
+ VINIT=1          ,
+ VBUG=  0.00000000    ,
+ CMTFN="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+ TLFRAC= 0.100000001    ,
+ NTURB=0          ,
+ VEGHT= 0.500000000    ,
+ ZICONTROLTF=0          ,
+ WINDERRTF=0          ,
+ IVMAX=20         ,
+ VARSIWANT="TIME","INDX","LONG","LATI","ZAGL",
+ "SIGW","TLGR","ZSFC","TEMP","SAMT","FOOT",
+ "SHTF","DMAS","DENS","RHFR","SPHU","DSWF",
+ "WOUT","MLHT","PRES", 80*"    ",
+ IDSP=1          ,
+ WVERT=T,
+ PLRISE=1          ,
+ AREA=0          ,
+ /
+ ------------- End Namelist configuration -------------------
+  
+  NOTICE   main: pollutant initialization flags
+       Grav settling -  T
+  NOTICE   main: meteorological data flags
+     Ten meter wind -  T
+     Two meter temp -  T
+     Exchange coeff -  F
+          Heat flux -  T
+      Momentum flux -  F
+  Velocity variance -  F
+       3D TKE field -  F
+     Down shortwave -  T
+  Friction velocity -  T
+      Friction temp -  F
+     Terrain height -  T
+   Surface pressure -  T
+  Mixed layer depth -  T
+  Convective mixing -  F
+  Profile averaging -            0
+   Stability method -            1
+  Horizontal mixing -            0
+  PBL mixing scheme -            2
+   Free Trop Mixing -    1.00000000    
+  Precip accumulate -           60
+ ------------- Start computation messages -------------------
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE metpos: (mtime,ftime) -     65896260           0
+  NOTICE metpos: (mtime,ftime) -     65896320           0
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   40   40   33
+  NOTICE sfcinp: reading ASCDATA.CFG
+  NOTICE sfcinp: record terminator = CR/LF
+  NOTICE metgrd: (kg, xyr,xy1) -     1   40   40  280  188
+  NOTICE metinp: AWRF 1 2192   40   40  280  188 65896260 25  4 16  7
+ --------------------------------------------------------
+  NOTICE prfsig: extrapolation from level (k,m):           33   9731.16504    
+ Input data levels:           33     Internal Sigma levels:           33
+ --------------------------------------------------------
+  NOTICE metinp: AWRF 1 2505   40   40  280  188 65896320 25  4 16  8
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE   main: Initial time step (min)            1
+  NOTICE emsmat: opened emission file - EMISS.CFG
+  NOTICE emsmat: emissions updated -           25           4          16           7
+  NOTICE   main:            1    65896261          17   0.00000000    
+  NOTICE   main:            1    65896262          34   0.00000000    
+  NOTICE   main:            1    65896263          51   0.00000000    
+  NOTICE   main:            1    65896264          68   0.00000000    
+  NOTICE   main:            1    65896265          85   0.00000000    
+  NOTICE   main:            1    65896266         102   0.00000000    
+  NOTICE   main:            1    65896267         119   0.00000000    
+  NOTICE   main:            1    65896268         136   0.00000000    
+  NOTICE   main:            1    65896269         153   0.00000000    
+  NOTICE   main:            1    65896270         170   0.00000000    
+  NOTICE   main:            1    65896271         187   0.00000000    
+  NOTICE   main:            1    65896272         204   0.00000000    
+  NOTICE   main:            1    65896273         221   0.00000000    
+  NOTICE   main:            1    65896274         238   0.00000000    
+  NOTICE   main:            1    65896275         255   0.00000000    
+  NOTICE   main:            1    65896276         272   0.00000000    
+  NOTICE   main:            1    65896277         289   0.00000000    
+  NOTICE   main:            1    65896278         306   0.00000000    
+  NOTICE   main:            1    65896279         323   0.00000000    
+  NOTICE   main:            1    65896280         340   0.00000000    
+  NOTICE   main:            1    65896281         357   0.00000000    
+  NOTICE   main:            1    65896282         374   0.00000000    
+  NOTICE   main:            1    65896283         391   0.00000000    
+  NOTICE   main:            1    65896284         408   0.00000000    
+  NOTICE   main:            1    65896285         425   0.00000000    
+  NOTICE   main:            1    65896286         442   0.00000000    
+  NOTICE   main:            1    65896287         459   0.00000000    
+  NOTICE   main:            1    65896288         476   0.00000000    
+  NOTICE   main:            1    65896289         493   0.00000000    
+  NOTICE   main:            1    65896290         510   0.00000000    
+  NOTICE   main:            1    65896291         527   0.00000000    
+  NOTICE   main:            1    65896292         544   0.00000000    
+  NOTICE   main:            1    65896293         561   0.00000000    
+  NOTICE   main:            1    65896294         578   0.00000000    
+  NOTICE   main:            1    65896295         595   0.00000000    
+  NOTICE   main:            1    65896296         612   0.00000000    
+  NOTICE   main:            1    65896297         629   0.00000000    
+  NOTICE   main:            1    65896298         646   0.00000000    
+  NOTICE   main:            1    65896299         663   0.00000000    
+  NOTICE   main:            1    65896300         680   0.00000000    
+  NOTICE   main:            1    65896301         697   0.00000000    
+  NOTICE   main:            1    65896302         714   0.00000000    
+  NOTICE   main:            1    65896303         731   0.00000000    
+  NOTICE   main:            1    65896304         748   0.00000000    
+  NOTICE   main:            1    65896305         765   0.00000000    
+  NOTICE   main:            1    65896306         782   0.00000000    
+  NOTICE   main:            1    65896307         799   0.00000000    
+  NOTICE   main:            1    65896308         816   0.00000000    
+  NOTICE   main:            1    65896309         833   0.00000000    
+  NOTICE   main:            1    65896310         850   0.00000000    
+  NOTICE   main:            1    65896311         867   0.00000000    
+  NOTICE   main:            1    65896312         884   0.00000000    
+  NOTICE   main:            1    65896313         901   0.00000000    
+  NOTICE   main:            1    65896314         918   0.00000000    
+  NOTICE   main:            1    65896315         935   0.00000000    
+  NOTICE   main:            1    65896316         952   0.00000000    
+  NOTICE   main:            1    65896317         969   0.00000000    
+  NOTICE   main:            1    65896318         986   0.00000000    
+  NOTICE   main:            1    65896319        1003   0.00000000    
+  NOTICE   main:            1    65896320        1020   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16           8
+  NOTICE metpos: (mtime,ftime) -     65896380    65896260
+  NOTICE metinp: AWRF 1 2818   40   40  280  188 65896380 25  4 16  9
+  NOTICE   main:            2    65896332         200   0.00000000    
+  NOTICE   main:            2    65896344         400   0.00000000    
+  NOTICE   main:            2    65896356         600   0.00000000    
+  NOTICE   main:            2    65896368         800   0.00000000    
+  NOTICE   main:            2    65896380        1000   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16           9
+  NOTICE metpos: (mtime,ftime) -     65896440    65896320
+  NOTICE metinp: AWRF 1 3131   40   40  280  188 65896440 25  4 16 10
+  NOTICE   main:            3    65896392         200   0.00000000    
+  NOTICE   main:            3    65896404         400   0.00000000    
+  NOTICE   main:            3    65896416         600   0.00000000    
+  NOTICE   main:            3    65896428         800   0.00000000    
+  NOTICE   main:            3    65896440        1000   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          10
+  NOTICE metpos: (mtime,ftime) -     65896500    65896380
+  NOTICE metinp: AWRF 1 3444   40   40  280  188 65896500 25  4 16 11
+  NOTICE   main:            4    65896446         100   0.00000000    
+  NOTICE   main:            4    65896452         200   0.00000000    
+  NOTICE   main:            4    65896458         300   0.00000000    
+  NOTICE   main:            4    65896464         400   0.00000000    
+  NOTICE   main:            4    65896470         500   0.00000000    
+  NOTICE   main:            4    65896476         600   0.00000000    
+  NOTICE   main:            4    65896482         700   0.00000000    
+  NOTICE   main:            4    65896488         800   0.00000000    
+  NOTICE   main:            4    65896494         900   0.00000000    
+  NOTICE   main:            4    65896500        1000   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          11
+  NOTICE metpos: (mtime,ftime) -     65896560    65896440
+  NOTICE metinp: AWRF 1 3757   40   40  280  188 65896560 25  4 16 12
+  NOTICE   main:            5    65896506         100   0.00000000    
+  NOTICE   main:            5    65896512         200   0.00000000    
+  NOTICE   main:            5    65896518         300   0.00000000    
+  NOTICE   main:            5    65896524         400   0.00000000    
+  NOTICE   main:            5    65896530         500   0.00000000    
+  NOTICE   main:            5    65896536         600   0.00000000    
+  NOTICE   main:            5    65896542         700   0.00000000    
+  NOTICE   main:            5    65896548         800   0.00000000    
+  NOTICE   main:            5    65896554         900   0.00000000    
+  NOTICE   main:            5    65896560        1000   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          12
+  NOTICE metpos: (mtime,ftime) -     65896620    65896500
+  NOTICE metinp: AWRF 1 4070   40   40  280  188 65896620 25  4 16 13
+  NOTICE   main:            6    65896566         100   0.00000000    
+  NOTICE   main:            6    65896572         200   0.00000000    
+  NOTICE   main:            6    65896578         300   0.00000000    
+  NOTICE   main:            6    65896584         400   0.00000000    
+  NOTICE   main:            6    65896590         500   0.00000000    
+  NOTICE   main:            6    65896596         600   0.00000000    
+  NOTICE   main:            6    65896602         700   0.00000000    
+  NOTICE   main:            6    65896608         800   0.00000000    
+  NOTICE   main:            6    65896614         900   0.00000000    
+  NOTICE   main:            6    65896620        1000   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          13
+  NOTICE metpos: (mtime,ftime) -     65896680    65896560
+  NOTICE metinp: AWRF 1 4383   40   40  280  188 65896680 25  4 16 14
+  NOTICE   main:            7    65896625          84   0.00000000    
+  NOTICE   main:            7    65896630         168   0.00000000    
+  NOTICE   main:            7    65896635         252   0.00000000    
+  NOTICE   main:            7    65896640         336   0.00000000    
+  NOTICE   main:            7    65896645         420   0.00000000    
+  NOTICE   main:            7    65896650         504   0.00000000    
+  NOTICE   main:            7    65896655         588   0.00000000    
+  NOTICE   main:            7    65896660         672   0.00000000    
+  NOTICE   main:            7    65896665         756   0.00000000    
+  NOTICE   main:            7    65896670         840   0.00000000    
+  NOTICE   main:            7    65896675         924   0.00000000    
+  NOTICE   main:            7    65896680        1008   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          14
+  NOTICE metpos: (mtime,ftime) -     65896740    65896620
+  NOTICE metinp: AWRF 1 4696   40   40  280  188 65896740 25  4 16 15
+  NOTICE   main:            8    65896685          84   0.00000000    
+  NOTICE   main:            8    65896690         168   0.00000000    
+  NOTICE   main:            8    65896695         252   0.00000000    
+  NOTICE   main:            8    65896700         336   0.00000000    
+  NOTICE   main:            8    65896705         420   0.00000000    
+  NOTICE   main:            8    65896710         504   0.00000000    
+  NOTICE   main:            8    65896715         588   0.00000000    
+  NOTICE   main:            8    65896720         672   0.00000000    
+  NOTICE   main:            8    65896725         756   0.00000000    
+  NOTICE   main:            8    65896730         840   0.00000000    
+  NOTICE   main:            8    65896735         924   0.00000000    
+  NOTICE   main:            8    65896740        1008   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          15
+  NOTICE metpos: (mtime,ftime) -     65896800    65896680
+  NOTICE metinp: AWRF 1 5009   40   40  280  188 65896800 25  4 16 16
+  NOTICE   main:            9    65896745          84   0.00000000    
+  NOTICE   main:            9    65896750         168   0.00000000    
+  NOTICE   main:            9    65896755         252   0.00000000    
+  NOTICE   main:            9    65896760         336   0.00000000    
+  NOTICE   main:            9    65896765         420   0.00000000    
+  NOTICE   main:            9    65896770         504   0.00000000    
+  NOTICE   main:            9    65896775         588   0.00000000    
+  NOTICE   main:            9    65896780         672   0.00000000    
+  NOTICE   main:            9    65896785         756   0.00000000    
+  NOTICE   main:            9    65896790         840   0.00000000    
+  NOTICE   main:            9    65896795         924   0.00000000    
+  NOTICE   main:            9    65896800        1008   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          16
+  NOTICE metpos: (mtime,ftime) -     65896860    65896740
+  NOTICE metinp: AWRF 1 5322   40   40  280  188 65896860 25  4 16 17
+  NOTICE   main:           10    65896805          84   0.00000000    
+  NOTICE   main:           10    65896810         168   0.00000000    
+  NOTICE   main:           10    65896815         252   0.00000000    
+  NOTICE   main:           10    65896820         336   0.00000000    
+  NOTICE   main:           10    65896825         420   0.00000000    
+  NOTICE   main:           10    65896830         504   0.00000000    
+  NOTICE   main:           10    65896835         588   0.00000000    
+  NOTICE   main:           10    65896840         672   0.00000000    
+  NOTICE   main:           10    65896845         756   0.00000000    
+  NOTICE   main:           10    65896850         840   0.00000000    
+  NOTICE   main:           10    65896855         924   0.00000000    
+  NOTICE   main:           10    65896860        1008   0.00000000    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   40  280  188
+  NOTICE emsmat: emissions updated -           25           4          16          17
+  NOTICE metpos: (mtime,ftime) -     65896920    65896800
+  NOTICE metinp: AWRF 1 5635   40   40  280  188 65896920 25  4 16 18
+  NOTICE   main:           11    65896864          67   384765.000    
+  NOTICE   main:           11    65896868         134   769530.000    
+  NOTICE   main:           11    65896872         201   1154296.38    
+  NOTICE   main:           11    65896876         268   1539064.38    
+  NOTICE   main:           11    65896880         335   1923832.12    
+  NOTICE   main:           11    65896884         402   2308597.75    
+  NOTICE   main:           11    65896888         469   2693357.25    
+  NOTICE   main:           11    65896892         536   3078117.00    
+  NOTICE   main:           11    65896896         603   3462876.50    
+  NOTICE   main:           11    65896900         670   3847636.25    
+  NOTICE   main:           11    65896904         737   4232397.00    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   40   40  280  188 shift
+  NOTICE metsub: (kg ,xyr,xy1) -     1   60   60  270  178 expand
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   60   60   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1   60   60  270  178
+  NOTICE metinp: AWRF 1 5322   60   60  270  178 65896860 25  4 16 17
+  NOTICE metinp: AWRF 1 5635   60   60  270  178 65896920 25  4 16 18
+  NOTICE   main:           11    65896908         804   4617164.50    
+  NOTICE   main:           11    65896912         871   5001932.00    
+  NOTICE   main:           11    65896916         938   5386700.00    
+  NOTICE   main:           11    65896920        1005   5771467.50    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   79   83  265  153
+  NOTICE emsmat: emissions updated -           25           4          16          18
+  NOTICE metpos: (mtime,ftime) -     65896980    65896860
+  NOTICE metinp: AWRF 1 5948   60   60  270  178 65896980 25  4 16 19
+  NOTICE   main:           12    65896921        1022   5869263.50    
+  NOTICE   main:           12    65896922        1039   5967060.00    
+  NOTICE   main:           12    65896923        1056   6064856.50    
+  NOTICE   main:           12    65896924        1073   6162653.00    
+  NOTICE   main:           12    65896925        1090   6260449.50    
+  NOTICE   main:           12    65896926        1107   6358245.00    
+  NOTICE   main:           12    65896927        1124   6456041.50    
+  NOTICE   main:           12    65896928        1141   6553838.00    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   79   83  265  153 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   79   83   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1   79   83  265  153
+  NOTICE metinp: AWRF 1 5635   79   83  265  153 65896920 25  4 16 18
+  NOTICE metinp: AWRF 1 5948   79   83  265  153 65896980 25  4 16 19
+  NOTICE   main:           12    65896929        1158   6651634.50    
+  NOTICE   main:           12    65896930        1175   6749430.00    
+  NOTICE   main:           12    65896931        1192   6847225.00    
+  NOTICE   main:           12    65896932        1209   6945021.00    
+  NOTICE   main:           12    65896933        1226   7042817.50    
+  NOTICE   main:           12    65896934        1243   7140614.00    
+  NOTICE   main:           12    65896935        1260   7238410.00    
+  NOTICE   main:           12    65896936        1277   7336206.00    
+  NOTICE   main:           12    65896937        1294   7434002.00    
+  NOTICE   main:           12    65896938        1311   7531798.00    
+  NOTICE   main:           12    65896939        1328   7629593.00    
+  NOTICE   main:           12    65896940        1345   7727389.50    
+  NOTICE   main:           12    65896941        1362   7825186.00    
+  NOTICE   main:           12    65896942        1379   7922982.50    
+  NOTICE   main:           12    65896943        1396   8020779.00    
+  NOTICE   main:           12    65896944        1413   8118575.00    
+  NOTICE   main:           12    65896945        1430   8216371.50    
+  NOTICE   main:           12    65896946        1447   8314167.00    
+  NOTICE   main:           12    65896947        1464   8411963.00    
+  NOTICE   main:           12    65896948        1481   8509755.00    
+  NOTICE   main:           12    65896949        1498   8607547.00    
+  NOTICE   main:           12    65896950        1515   8705338.00    
+  NOTICE   main:           12    65896951        1532   8803130.00    
+  NOTICE   main:           12    65896952        1549   8900921.00    
+  NOTICE   main:           12    65896953        1566   8998713.00    
+  NOTICE   main:           12    65896954        1583   9096504.00    
+  NOTICE   main:           12    65896955        1600   9194296.00    
+  NOTICE   main:           12    65896956        1617   9292087.00    
+  NOTICE   main:           12    65896957        1634   9389879.00    
+  NOTICE   main:           12    65896958        1651   9487671.00    
+  NOTICE   main:           12    65896959        1668   9585463.00    
+  NOTICE   main:           12    65896960        1685   9683254.00    
+  NOTICE   main:           12    65896961        1702   9781046.00    
+  NOTICE   main:           12    65896962        1719   9878838.00    
+  NOTICE   main:           12    65896963        1736   9976629.00    
+  NOTICE   main:           12    65896964        1753   10074421.0    
+  NOTICE   main:           12    65896965        1770   10172213.0    
+  NOTICE   main:           12    65896966        1787   10270005.0    
+  NOTICE   main:           12    65896967        1804   10367797.0    
+  NOTICE   main:           12    65896968        1821   10465589.0    
+  NOTICE   main:           12    65896969        1838   10563380.0    
+  NOTICE   main:           12    65896970        1855   10661172.0    
+  NOTICE   main:           12    65896971        1872   10758964.0    
+  NOTICE   main:           12    65896972        1889   10856756.0    
+  NOTICE   main:           12    65896973        1906   10954547.0    
+  NOTICE   main:           12    65896974        1923   11052338.0    
+  NOTICE   main:           12    65896975        1940   11150130.0    
+  NOTICE   main:           12    65896976        1957   11247922.0    
+  NOTICE   main:           12    65896977        1974   11345713.0    
+  NOTICE   main:           12    65896978        1991   11443504.0    
+  NOTICE   main:           12    65896979        2008   11541295.0    
+  NOTICE   main:           12    65896980        2025   11639087.0    
+                                                        Index  Height %Mass
+                                                           27  7030.0  3.42
+                                                           26  6510.0 10.26
+                                                           25  6010.0 10.94
+                                                           24  5530.0 19.93
+                                                           23  5070.0 18.38
+                                                           22  4630.0 15.55
+                                                           21  4210.0  6.92
+                                                           20  3810.0  1.72
+                                                           19  3430.0  1.21
+                                                           18  3070.0  1.26
+                                                           17  2730.0  0.83
+                                                           16  2410.0  1.40
+                                                           15  2110.0  0.70
+                                                           14  1830.0  1.33
+                                                           13  1570.0  0.85
+                                                           12  1330.0  1.40
+                                                           11  1110.0  0.90
+                                                           10   910.0  0.66
+                                                            9   730.0  0.44
+                                                            8   570.0  0.34
+                                                            7   430.0  0.41
+                                                            6   310.0  0.34
+                                                            5   210.0  0.20
+                                                            4   130.0  0.31
+                                                            3    70.0  0.20
+                                                            2    30.0  0.05
+                                                            1    10.0  0.04
+  NOTICE advrng: (kg ,xyr,xy1) -  1  103  102  260  136
+  NOTICE emsmat: emissions updated -           25           4          16          19
+  NOTICE metpos: (mtime,ftime) -     65897040    65896920
+  NOTICE metinp: AWRF 1 6261   79   83  265  153 65897040 25  4 16 20
+  NOTICE   main:           13    65896981        2042   11739967.0    
+  NOTICE   main:           13    65896982        2059   11840849.0    
+  NOTICE   main:           13    65896983        2076   11941731.0    
+  NOTICE   main:           13    65896984        2093   12042613.0    
+  NOTICE   main:           13    65896985        2110   12143494.0    
+  NOTICE   main:           13    65896986        2127   12244375.0    
+  NOTICE   main:           13    65896987        2144   12345257.0    
+  NOTICE   main:           13    65896988        2161   12446138.0    
+  NOTICE   main:           13    65896989        2178   12547020.0    
+  NOTICE   main:           13    65896990        2195   12647901.0    
+  NOTICE   main:           13    65896991        2212   12748782.0    
+  NOTICE   main:           13    65896992        2229   12849663.0    
+  NOTICE   main:           13    65896993        2246   12950545.0    
+  NOTICE   main:           13    65896994        2263   13051426.0    
+  NOTICE   main:           13    65896995        2280   13152307.0    
+  NOTICE   main:           13    65896996        2297   13253189.0    
+  NOTICE   main:           13    65896997        2314   13354070.0    
+  NOTICE   main:           13    65896998        2331   13454951.0    
+  NOTICE   main:           13    65896999        2348   13555833.0    
+  NOTICE   main:           13    65897000        2365   13656715.0    
+  NOTICE   main:           13    65897001        2382   13757596.0    
+  NOTICE   main:           13    65897002        2399   13858478.0    
+  NOTICE   main:           13    65897003        2416   13959359.0    
+  NOTICE   main:           13    65897004        2433   14060240.0    
+  NOTICE   main:           13    65897005        2450   14161122.0    
+  NOTICE   main:           13    65897006        2467   14262003.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  103  102  260  136 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  103  102   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  103  102  260  136
+  NOTICE metinp: AWRF 1 5948  103  102  260  136 65896980 25  4 16 19
+  NOTICE metinp: AWRF 1 6261  103  102  260  136 65897040 25  4 16 20
+  NOTICE   main:           13    65897007        2484   14362885.0    
+  NOTICE   main:           13    65897008        2501   14463763.0    
+  NOTICE   main:           13    65897009        2518   14564643.0    
+  NOTICE   main:           13    65897010        2535   14665525.0    
+  NOTICE   main:           13    65897011        2552   14766406.0    
+  NOTICE   main:           13    65897012        2569   14867288.0    
+  NOTICE   main:           13    65897013        2586   14968168.0    
+  NOTICE   main:           13    65897014        2603   15069050.0    
+  NOTICE   main:           13    65897015        2620   15169931.0    
+  NOTICE   main:           13    65897016        2637   15270813.0    
+  NOTICE   main:           13    65897017        2654   15371693.0    
+  NOTICE   main:           13    65897018        2671   15472575.0    
+  NOTICE   main:           13    65897019        2688   15573456.0    
+  NOTICE   main:           13    65897020        2705   15674336.0    
+  NOTICE   main:           13    65897021        2722   15775217.0    
+  NOTICE   main:           13    65897022        2739   15876098.0    
+  NOTICE   main:           13    65897023        2756   15976979.0    
+  NOTICE   main:           13    65897024        2773   16077861.0    
+  NOTICE   main:           13    65897025        2790   16178742.0    
+  NOTICE   main:           13    65897026        2807   16279624.0    
+  NOTICE   main:           13    65897027        2824   16380505.0    
+  NOTICE   main:           13    65897028        2841   16481385.0    
+  NOTICE   main:           13    65897029        2858   16582265.0    
+  NOTICE   main:           13    65897030        2875   16683146.0    
+  NOTICE   main:           13    65897031        2892   16784026.0    
+  NOTICE   main:           13    65897032        2909   16884900.0    
+  NOTICE   main:           13    65897033        2926   16985774.0    
+  NOTICE   main:           13    65897034        2943   17086648.0    
+  NOTICE   main:           13    65897035        2960   17187520.0    
+  NOTICE   main:           13    65897036        2977   17288394.0    
+  NOTICE   main:           13    65897037        2994   17389268.0    
+  NOTICE   main:           13    65897038        3011   17490140.0    
+  NOTICE   main:           13    65897039        3028   17591014.0    
+  NOTICE   main:           13    65897040        3045   17691886.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  126  107  257  128
+  NOTICE emsmat: emissions updated -           25           4          16          20
+  NOTICE metpos: (mtime,ftime) -     65897100    65896980
+  NOTICE metinp: AWRF 1 6574  103  102  260  136 65897100 25  4 16 21
+  NOTICE   main:           14    65897041        3062   17795660.0    
+  NOTICE   main:           14    65897042        3079   17899434.0    
+  NOTICE   main:           14    65897043        3096   18003208.0    
+  NOTICE   main:           14    65897044        3113   18106982.0    
+  NOTICE   main:           14    65897045        3130   18210756.0    
+  NOTICE   main:           14    65897046        3147   18314528.0    
+  NOTICE   main:           14    65897047        3164   18418302.0    
+  NOTICE   main:           14    65897048        3181   18522074.0    
+  NOTICE   main:           14    65897049        3198   18625848.0    
+  NOTICE   main:           14    65897050        3215   18729620.0    
+  NOTICE   main:           14    65897051        3232   18833394.0    
+  NOTICE   main:           14    65897052        3249   18937168.0    
+  NOTICE   main:           14    65897053        3266   19040940.0    
+  NOTICE   main:           14    65897054        3283   19144714.0    
+  NOTICE   main:           14    65897055        3300   19248486.0    
+  NOTICE   main:           14    65897056        3317   19352260.0    
+  NOTICE   main:           14    65897057        3334   19456032.0    
+  NOTICE   main:           14    65897058        3351   19559806.0    
+  NOTICE   main:           14    65897059        3368   19663578.0    
+  NOTICE   main:           14    65897060        3385   19767350.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  126  107  257  128 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  126  107   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  126  107  257  128
+  NOTICE metinp: AWRF 1 6261  126  107  257  128 65897040 25  4 16 20
+  NOTICE metinp: AWRF 1 6574  126  107  257  128 65897100 25  4 16 21
+  NOTICE   main:           14    65897061        3402   19871124.0    
+  NOTICE   main:           14    65897062        3419   19974898.0    
+  NOTICE   main:           14    65897063        3436   20078672.0    
+  NOTICE   main:           14    65897064        3453   20182444.0    
+  NOTICE   main:           14    65897065        3470   20286218.0    
+  NOTICE   main:           14    65897066        3487   20389992.0    
+  NOTICE   main:           14    65897067        3504   20493764.0    
+  NOTICE   main:           14    65897068        3521   20597538.0    
+  NOTICE   main:           14    65897069        3538   20701312.0    
+  NOTICE   main:           14    65897070        3555   20805084.0    
+  NOTICE   main:           14    65897071        3572   20908858.0    
+  NOTICE   main:           14    65897072        3589   21012632.0    
+  NOTICE   main:           14    65897073        3606   21116404.0    
+  NOTICE   main:           14    65897074        3623   21220178.0    
+  NOTICE   main:           14    65897075        3640   21323952.0    
+  NOTICE   main:           14    65897076        3657   21427722.0    
+  NOTICE   main:           14    65897077        3674   21531496.0    
+  NOTICE   main:           14    65897078        3691   21635270.0    
+  NOTICE   main:           14    65897079        3708   21739042.0    
+  NOTICE   main:           14    65897080        3725   21842816.0    
+  NOTICE   main:           14    65897081        3742   21946586.0    
+  NOTICE   main:           14    65897082        3759   22050360.0    
+  NOTICE   main:           14    65897083        3776   22154134.0    
+  NOTICE   main:           14    65897084        3793   22257906.0    
+  NOTICE   main:           14    65897085        3810   22361678.0    
+  NOTICE   main:           14    65897086        3827   22465452.0    
+  NOTICE   main:           14    65897087        3844   22569224.0    
+  NOTICE   main:           14    65897088        3861   22672998.0    
+  NOTICE   main:           14    65897089        3878   22776770.0    
+  NOTICE   main:           14    65897090        3895   22880544.0    
+  NOTICE   main:           14    65897091        3912   22984318.0    
+  NOTICE   main:           14    65897092        3929   23088088.0    
+  NOTICE   main:           14    65897093        3946   23191860.0    
+  NOTICE   main:           14    65897094        3963   23295632.0    
+  NOTICE   main:           14    65897095        3980   23399406.0    
+  NOTICE   main:           14    65897096        3997   23503178.0    
+  NOTICE   main:           14    65897097        4014   23606952.0    
+  NOTICE   main:           14    65897098        4031   23710724.0    
+  NOTICE   main:           14    65897099        4048   23814498.0    
+  NOTICE   main:           14    65897100        4065   23918268.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  153  116  251  120
+  NOTICE emsmat: emissions updated -           25           4          16          21
+  NOTICE metpos: (mtime,ftime) -     65897160    65897040
+  NOTICE metinp: AWRF 1 6887  126  107  257  128 65897160 25  4 16 22
+  NOTICE   main:           15    65897101        4082   24024712.0    
+  NOTICE   main:           15    65897102        4099   24131156.0    
+  NOTICE   main:           15    65897103        4116   24237598.0    
+  NOTICE   main:           15    65897104        4133   24344042.0    
+  NOTICE   main:           15    65897105        4150   24450484.0    
+  NOTICE   main:           15    65897106        4167   24556928.0    
+  NOTICE   main:           15    65897107        4184   24663370.0    
+  NOTICE   main:           15    65897108        4201   24769814.0    
+  NOTICE   main:           15    65897109        4218   24876256.0    
+  NOTICE   main:           15    65897110        4235   24982700.0    
+  NOTICE   main:           15    65897111        4252   25089142.0    
+  NOTICE   main:           15    65897112        4269   25195586.0    
+  NOTICE   main:           15    65897113        4286   25302028.0    
+  NOTICE   main:           15    65897114        4303   25408470.0    
+  NOTICE   main:           15    65897115        4320   25514914.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  153  116  251  120 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  153  116   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  153  116  251  120
+  NOTICE metinp: AWRF 1 6574  153  116  251  120 65897100 25  4 16 21
+  NOTICE metinp: AWRF 1 6887  153  116  251  120 65897160 25  4 16 22
+  NOTICE   main:           15    65897116        4337   25621358.0    
+  NOTICE   main:           15    65897117        4354   25727800.0    
+  NOTICE   main:           15    65897118        4371   25834242.0    
+  NOTICE   main:           15    65897119        4388   25940684.0    
+  NOTICE   main:           15    65897120        4405   26047128.0    
+  NOTICE   main:           15    65897121        4422   26153570.0    
+  NOTICE   main:           15    65897122        4439   26260012.0    
+  NOTICE   main:           15    65897123        4456   26366456.0    
+  NOTICE   main:           15    65897124        4473   26472898.0    
+  NOTICE   main:           15    65897125        4490   26579340.0    
+  NOTICE   main:           15    65897126        4507   26685780.0    
+  NOTICE   main:           15    65897127        4524   26792224.0    
+  NOTICE   main:           15    65897128        4541   26898668.0    
+  NOTICE   main:           15    65897129        4558   27005110.0    
+  NOTICE   main:           15    65897130        4575   27111554.0    
+  NOTICE   main:           15    65897131        4592   27217996.0    
+  NOTICE   main:           15    65897132        4609   27324440.0    
+  NOTICE   main:           15    65897133        4626   27430882.0    
+  NOTICE   main:           15    65897134        4643   27537326.0    
+  NOTICE   main:           15    65897135        4660   27643768.0    
+  NOTICE   main:           15    65897136        4677   27750212.0    
+  NOTICE   main:           15    65897137        4694   27856656.0    
+  NOTICE   main:           15    65897138        4711   27963098.0    
+  NOTICE   main:           15    65897139        4728   28069542.0    
+  NOTICE   main:           15    65897140        4745   28175984.0    
+  NOTICE   main:           15    65897141        4762   28282426.0    
+  NOTICE   main:           15    65897142        4779   28388868.0    
+  NOTICE   main:           15    65897143        4796   28495312.0    
+  NOTICE   main:           15    65897144        4813   28601756.0    
+  NOTICE   main:           15    65897145        4830   28708198.0    
+  NOTICE   main:           15    65897146        4847   28814640.0    
+  NOTICE   main:           15    65897147        4864   28921082.0    
+  NOTICE   main:           15    65897148        4881   29027524.0    
+  NOTICE   main:           15    65897149        4898   29133968.0    
+  NOTICE   main:           15    65897150        4915   29240408.0    
+  NOTICE   main:           15    65897151        4932   29346850.0    
+  NOTICE   main:           15    65897152        4949   29453292.0    
+  NOTICE   main:           15    65897153        4966   29559734.0    
+  NOTICE   main:           15    65897154        4983   29666176.0    
+  NOTICE   main:           15    65897155        5000   29772620.0    
+  NOTICE   main:           15    65897156        5017   29879062.0    
+  NOTICE   main:           15    65897157        5034   29985502.0    
+  NOTICE   main:           15    65897158        5051   30091944.0    
+  NOTICE   main:           15    65897159        5068   30198382.0    
+  NOTICE   main:           15    65897160        5085   30304824.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  188  136  242  104
+  NOTICE emsmat: emissions updated -           25           4          16          22
+  NOTICE metpos: (mtime,ftime) -     65897220    65897100
+  NOTICE metinp: AWRF 1 7200  153  116  251  120 65897220 25  4 16 23
+  NOTICE   main:           16    65897161        5102   30413604.0    
+  NOTICE   main:           16    65897162        5119   30522388.0    
+  NOTICE   main:           16    65897163        5136   30631172.0    
+  NOTICE   main:           16    65897164        5153   30739956.0    
+  NOTICE   main:           16    65897165        5170   30848738.0    
+  NOTICE   main:           16    65897166        5187   30957518.0    
+  NOTICE   main:           16    65897167        5204   31066300.0    
+  NOTICE   main:           16    65897168        5221   31175084.0    
+  NOTICE   main:           16    65897169        5238   31283866.0    
+  NOTICE   main:           16    65897170        5255   31392648.0    
+  NOTICE   main:           16    65897171        5272   31501430.0    
+  NOTICE   main:           16    65897172        5289   31610210.0    
+  NOTICE   main:           16    65897173        5306   31718992.0    
+  NOTICE   main:           16    65897174        5323   31827774.0    
+  NOTICE   main:           16    65897175        5340   31936554.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  188  136  242  104 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  188  136   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  188  136  242  104
+  NOTICE metinp: AWRF 1 6887  188  136  242  104 65897160 25  4 16 22
+  NOTICE metinp: AWRF 1 7200  188  136  242  104 65897220 25  4 16 23
+  NOTICE   main:           16    65897176        5357   32045334.0    
+  NOTICE   main:           16    65897177        5374   32154116.0    
+  NOTICE   main:           16    65897178        5391   32262896.0    
+  NOTICE   main:           16    65897179        5408   32371678.0    
+  NOTICE   main:           16    65897180        5425   32480458.0    
+  NOTICE   main:           16    65897181        5442   32589240.0    
+  NOTICE   main:           16    65897182        5459   32698022.0    
+  NOTICE   main:           16    65897183        5476   32806804.0    
+  NOTICE   main:           16    65897184        5493   32915586.0    
+  NOTICE   main:           16    65897185        5510   33024368.0    
+  NOTICE   main:           16    65897186        5527   33133148.0    
+  NOTICE   main:           16    65897187        5544   33241930.0    
+  NOTICE   main:           16    65897188        5561   33350710.0    
+  NOTICE   main:           16    65897189        5578   33459492.0    
+  NOTICE   main:           16    65897190        5595   33568268.0    
+  NOTICE   main:           16    65897191        5612   33677032.0    
+  NOTICE   main:           16    65897192        5629   33785800.0    
+  NOTICE   main:           16    65897193        5646   33894568.0    
+  NOTICE   main:           16    65897194        5663   34003332.0    
+  NOTICE   main:           16    65897195        5680   34112100.0    
+  NOTICE   main:           16    65897196        5697   34220864.0    
+  NOTICE   main:           16    65897197        5714   34329624.0    
+  NOTICE   main:           16    65897198        5731   34438392.0    
+  NOTICE   main:           16    65897199        5748   34547156.0    
+  NOTICE   main:           16    65897200        5765   34655924.0    
+  NOTICE   main:           16    65897201        5782   34764684.0    
+  NOTICE   main:           16    65897202        5799   34873452.0    
+  NOTICE   main:           16    65897203        5816   34982220.0    
+  NOTICE   main:           16    65897204        5833   35090980.0    
+  NOTICE   main:           16    65897205        5850   35199748.0    
+  NOTICE   main:           16    65897206        5867   35308512.0    
+  NOTICE   main:           16    65897207        5884   35417276.0    
+  NOTICE   main:           16    65897208        5901   35526044.0    
+  NOTICE   main:           16    65897209        5918   35634808.0    
+  NOTICE   main:           16    65897210        5935   35743576.0    
+  NOTICE   main:           16    65897211        5952   35852344.0    
+  NOTICE   main:           16    65897212        5969   35961108.0    
+  NOTICE   main:           16    65897213        5986   36069876.0    
+  NOTICE   main:           16    65897214        6003   36178640.0    
+  NOTICE   main:           16    65897215        6020   36287408.0    
+  NOTICE   main:           16    65897216        6037   36396176.0    
+  NOTICE   main:           16    65897217        6054   36504944.0    
+  NOTICE   main:           16    65897218        6071   36613708.0    
+  NOTICE   main:           16    65897219        6088   36722476.0    
+  NOTICE   main:           16    65897220        6105   36831240.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  220  151  232   90
+  NOTICE emsmat: emissions updated -           25           4          16          23
+  NOTICE metpos: (mtime,ftime) -     65897280    65897160
+  NOTICE metinp: AWRF 1 7513  188  136  242  104 65897280 25  4 17  0
+  NOTICE   main:           17    65897221        6122   36942020.0    
+  NOTICE   main:           17    65897222        6139   37052796.0    
+  NOTICE   main:           17    65897223        6156   37163572.0    
+  NOTICE   main:           17    65897224        6173   37274344.0    
+  NOTICE   main:           17    65897225        6190   37385120.0    
+  NOTICE   main:           17    65897226        6207   37495896.0    
+  NOTICE   main:           17    65897227        6224   37606672.0    
+  NOTICE   main:           17    65897228        6241   37717448.0    
+  NOTICE   main:           17    65897229        6258   37828224.0    
+  NOTICE   main:           17    65897230        6275   37939000.0    
+  NOTICE   main:           17    65897231        6292   38049768.0    
+  NOTICE   main:           17    65897232        6309   38160544.0    
+  NOTICE   main:           17    65897233        6326   38271320.0    
+  NOTICE   main:           17    65897234        6343   38382088.0    
+  NOTICE   main:           17    65897235        6360   38492864.0    
+  NOTICE   main:           17    65897236        6377   38603640.0    
+  NOTICE   main:           17    65897237        6394   38714404.0    
+  NOTICE   main:           17    65897238        6411   38825176.0    
+  NOTICE   main:           17    65897239        6428   38935956.0    
+  NOTICE   main:           17    65897240        6445   39046732.0    
+  NOTICE   main:           17    65897241        6462   39157508.0    
+  NOTICE   main:           17    65897242        6479   39268288.0    
+  NOTICE   main:           17    65897243        6496   39379060.0    
+  NOTICE   main:           17    65897244        6513   39489836.0    
+  NOTICE   main:           17    65897245        6530   39600612.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  220  151  232   90 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  220  151   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  220  151  232   90
+  NOTICE metinp: AWRF 1 7200  220  151  232   90 65897220 25  4 16 23
+  NOTICE metinp: AWRF 1 7513  220  151  232   90 65897280 25  4 17  0
+  NOTICE   main:           17    65897246        6547   39711388.0    
+  NOTICE   main:           17    65897247        6564   39822164.0    
+  NOTICE   main:           17    65897248        6581   39932936.0    
+  NOTICE   main:           17    65897249        6598   40043712.0    
+  NOTICE   main:           17    65897250        6615   40154484.0    
+  NOTICE   main:           17    65897251        6632   40265260.0    
+  NOTICE   main:           17    65897252        6649   40376036.0    
+  NOTICE   main:           17    65897253        6666   40486812.0    
+  NOTICE   main:           17    65897254        6683   40597588.0    
+  NOTICE   main:           17    65897255        6700   40708364.0    
+  NOTICE   main:           17    65897256        6717   40819140.0    
+  NOTICE   main:           17    65897257        6734   40929912.0    
+  NOTICE   main:           17    65897258        6751   41040672.0    
+  NOTICE   main:           17    65897259        6768   41151452.0    
+  NOTICE   main:           17    65897260        6785   41262228.0    
+  NOTICE   main:           17    65897261        6802   41373004.0    
+  NOTICE   main:           17    65897262        6819   41483772.0    
+  NOTICE   main:           17    65897263        6836   41594544.0    
+  NOTICE   main:           17    65897264        6853   41705320.0    
+  NOTICE   main:           17    65897265        6870   41816080.0    
+  NOTICE   main:           17    65897266        6887   41926848.0    
+  NOTICE   main:           17    65897267        6904   42037624.0    
+  NOTICE   main:           17    65897268        6921   42148400.0    
+  NOTICE   main:           17    65897269        6938   42259176.0    
+  NOTICE   main:           17    65897270        6955   42369948.0    
+  NOTICE   main:           17    65897271        6972   42480720.0    
+  NOTICE   main:           17    65897272        6989   42591492.0    
+  NOTICE   main:           17    65897273        7006   42702256.0    
+  NOTICE   main:           17    65897274        7023   42813036.0    
+  NOTICE   main:           17    65897275        7040   42923808.0    
+  NOTICE   main:           17    65897276        7057   43034572.0    
+  NOTICE   main:           17    65897277        7074   43145344.0    
+  NOTICE   main:           17    65897278        7091   43256116.0    
+  NOTICE   main:           17    65897279        7108   43366888.0    
+  NOTICE   main:           17    65897280        7125   43477664.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  262  177  220   71
+  NOTICE emsmat: emissions updated -           25           4          17           0
+  NOTICE metpos: (mtime,ftime) -     65897340    65897220
+  NOTICE metinp: AWRF 1  314  220  151  232   90 65897340 25  4 17  1
+  NOTICE   main:           18    65897281        7142   43589980.0    
+  NOTICE   main:           18    65897282        7159   43702304.0    
+  NOTICE   main:           18    65897283        7176   43814624.0    
+  NOTICE   main:           18    65897284        7193   43926944.0    
+  NOTICE   main:           18    65897285        7210   44039264.0    
+  NOTICE   main:           18    65897286        7227   44151588.0    
+  NOTICE   main:           18    65897287        7244   44263908.0    
+  NOTICE   main:           18    65897288        7261   44376224.0    
+  NOTICE   main:           18    65897289        7278   44488548.0    
+  NOTICE   main:           18    65897290        7295   44600872.0    
+  NOTICE   main:           18    65897291        7312   44713196.0    
+  NOTICE   main:           18    65897292        7329   44825512.0    
+  NOTICE   main:           18    65897293        7346   44937836.0    
+  NOTICE   main:           18    65897294        7363   45050156.0    
+  NOTICE   main:           18    65897295        7380   45162480.0    
+  NOTICE   main:           18    65897296        7397   45274808.0    
+  NOTICE   main:           18    65897297        7414   45387124.0    
+  NOTICE   main:           18    65897298        7431   45499448.0    
+  NOTICE   main:           18    65897299        7448   45611776.0    
+  NOTICE   main:           18    65897300        7465   45724092.0    
+  NOTICE   main:           18    65897301        7482   45836416.0    
+  NOTICE   main:           18    65897302        7499   45948736.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  262  177  220   71 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  262  177   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  262  177  220   71
+  NOTICE metinp: AWRF 1    1  262  177  220   71 65897280 25  4 17  0
+  NOTICE metinp: AWRF 1  314  262  177  220   71 65897340 25  4 17  1
+  NOTICE   main:           18    65897303        7516   46061056.0    
+  NOTICE   main:           18    65897304        7533   46173380.0    
+  NOTICE   main:           18    65897305        7550   46285700.0    
+  NOTICE   main:           18    65897306        7567   46398024.0    
+  NOTICE   main:           18    65897307        7584   46510348.0    
+  NOTICE   main:           18    65897308        7601   46622672.0    
+  NOTICE   main:           18    65897309        7618   46734988.0    
+  NOTICE   main:           18    65897310        7635   46847312.0    
+  NOTICE   main:           18    65897311        7652   46959632.0    
+  NOTICE   main:           18    65897312        7669   47071956.0    
+  NOTICE   main:           18    65897313        7686   47184268.0    
+  NOTICE   main:           18    65897314        7703   47296584.0    
+  NOTICE   main:           18    65897315        7720   47408904.0    
+  NOTICE   main:           18    65897316        7737   47521224.0    
+  NOTICE   main:           18    65897317        7754   47633544.0    
+  NOTICE   main:           18    65897318        7771   47745860.0    
+  NOTICE   main:           18    65897319        7788   47858180.0    
+  NOTICE   main:           18    65897320        7805   47970496.0    
+  NOTICE   main:           18    65897321        7822   48082820.0    
+  NOTICE   main:           18    65897322        7839   48195144.0    
+  NOTICE   main:           18    65897323        7856   48307456.0    
+  NOTICE   main:           18    65897324        7873   48419772.0    
+  NOTICE   main:           18    65897325        7890   48532088.0    
+  NOTICE   main:           18    65897326        7907   48644412.0    
+  NOTICE   main:           18    65897327        7924   48756724.0    
+  NOTICE   main:           18    65897328        7941   48869032.0    
+  NOTICE   main:           18    65897329        7958   48981352.0    
+  NOTICE   main:           18    65897330        7975   49093676.0    
+  NOTICE   main:           18    65897331        7992   49206000.0    
+  NOTICE   main:           18    65897332        8009   49318320.0    
+  NOTICE   main:           18    65897333        8026   49430644.0    
+  NOTICE   main:           18    65897334        8043   49542964.0    
+  NOTICE   main:           18    65897335        8060   49655284.0    
+  NOTICE   main:           18    65897336        8077   49767612.0    
+  NOTICE   main:           18    65897337        8094   49879932.0    
+  NOTICE   main:           18    65897338        8111   49992248.0    
+  NOTICE   main:           18    65897339        8128   50104568.0    
+  NOTICE   main:           18    65897340        8145   50216888.0    
+                                                        Index  Height %Mass
+                                                           29  8130.0  0.53
+                                                           28  7570.0  2.46
+                                                           27  7030.0  3.22
+                                                           26  6510.0  2.72
+                                                           25  6010.0  6.09
+                                                           24  5530.0 11.07
+                                                           23  5070.0 15.14
+                                                           22  4630.0 14.52
+                                                           21  4210.0 11.19
+                                                           20  3810.0  7.96
+                                                           19  3430.0  4.29
+                                                           18  3070.0  2.45
+                                                           17  2730.0  1.70
+                                                           16  2410.0  1.35
+                                                           15  2110.0  1.66
+                                                           14  1830.0  1.41
+                                                           13  1570.0  1.45
+                                                           12  1330.0  1.41
+                                                           11  1110.0  1.38
+                                                           10   910.0  1.36
+                                                            9   730.0  1.36
+                                                            8   570.0  1.17
+                                                            7   430.0  1.06
+                                                            6   310.0  0.84
+                                                            5   210.0  0.63
+                                                            4   130.0  0.55
+                                                            3    70.0  0.43
+                                                            2    30.0  0.29
+                                                            1    10.0  0.30
+  NOTICE advrng: (kg ,xyr,xy1) -  1  304  198  209   55
+  NOTICE emsmat: emissions updated -           25           4          17           1
+  NOTICE metpos: (mtime,ftime) -     65897400    65897280
+  NOTICE metinp: AWRF 1  627  262  177  220   71 65897400 25  4 17  2
+  NOTICE   main:           19    65897341        8162   50330356.0    
+  NOTICE   main:           19    65897342        8179   50443824.0    
+  NOTICE   main:           19    65897343        8196   50557300.0    
+  NOTICE   main:           19    65897344        8213   50670764.0    
+  NOTICE   main:           19    65897345        8230   50784232.0    
+  NOTICE   main:           19    65897346        8247   50897696.0    
+  NOTICE   main:           19    65897347        8264   51011160.0    
+  NOTICE   main:           19    65897348        8281   51124628.0    
+  NOTICE   main:           19    65897349        8298   51238084.0    
+  NOTICE   main:           19    65897350        8315   51351552.0    
+  NOTICE   main:           19    65897351        8332   51465020.0    
+  NOTICE   main:           19    65897352        8349   51578484.0    
+  NOTICE   main:           19    65897353        8366   51691960.0    
+  NOTICE   main:           19    65897354        8383   51805420.0    
+  NOTICE   main:           19    65897355        8400   51918888.0    
+  NOTICE   main:           19    65897356        8417   52032360.0    
+  NOTICE   main:           19    65897357        8434   52145828.0    
+  NOTICE   main:           19    65897358        8451   52259284.0    
+  NOTICE   main:           19    65897359        8468   52372756.0    
+  NOTICE   main:           19    65897360        8485   52486228.0    
+  NOTICE   main:           19    65897361        8502   52599692.0    
+  NOTICE   main:           19    65897362        8519   52713156.0    
+  NOTICE   main:           19    65897363        8536   52826616.0    
+  NOTICE   main:           19    65897364        8553   52940084.0    
+  NOTICE   main:           19    65897365        8570   53053552.0    
+  NOTICE   main:           19    65897366        8587   53167020.0    
+  NOTICE   main:           19    65897367        8604   53280488.0    
+  NOTICE   main:           19    65897368        8621   53393956.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  304  198  209   55 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  304  198   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  304  198  209   55
+  NOTICE metinp: AWRF 1  314  304  198  209   55 65897340 25  4 17  1
+  NOTICE metinp: AWRF 1  627  304  198  209   55 65897400 25  4 17  2
+  NOTICE   main:           19    65897369        8638   53507428.0    
+  NOTICE   main:           19    65897370        8655   53620900.0    
+  NOTICE   main:           19    65897371        8672   53734364.0    
+  NOTICE   main:           19    65897372        8689   53847832.0    
+  NOTICE   main:           19    65897373        8706   53961292.0    
+  NOTICE   main:           19    65897374        8723   54074756.0    
+  NOTICE   main:           19    65897375        8740   54188224.0    
+  NOTICE   main:           19    65897376        8757   54301684.0    
+  NOTICE   main:           19    65897377        8774   54415156.0    
+  NOTICE   main:           19    65897378        8791   54528616.0    
+  NOTICE   main:           19    65897379        8808   54642068.0    
+  NOTICE   main:           19    65897380        8825   54755536.0    
+  NOTICE   main:           19    65897381        8842   54868996.0    
+  NOTICE   main:           19    65897382        8859   54982464.0    
+  NOTICE   main:           19    65897383        8876   55095928.0    
+  NOTICE   main:           19    65897384        8893   55209384.0    
+  NOTICE   main:           19    65897385        8910   55322840.0    
+  NOTICE   main:           19    65897386        8927   55436312.0    
+  NOTICE   main:           19    65897387        8944   55549784.0    
+  NOTICE   main:           19    65897388        8961   55663252.0    
+  NOTICE   main:           19    65897389        8978   55776720.0    
+  NOTICE   main:           19    65897390        8995   55890184.0    
+  NOTICE   main:           19    65897391        9012   56003648.0    
+  NOTICE   main:           19    65897392        9029   56117100.0    
+  NOTICE   main:           19    65897393        9046   56230568.0    
+  NOTICE   main:           19    65897394        9063   56344032.0    
+  NOTICE   main:           19    65897395        9080   56457492.0    
+  NOTICE   main:           19    65897396        9097   56570956.0    
+  NOTICE   main:           19    65897397        9114   56684412.0    
+  NOTICE   main:           19    65897398        9131   56797868.0    
+  NOTICE   main:           19    65897399        9148   56911324.0    
+  NOTICE   main:           19    65897400        9165   57024780.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  344  218  201   39
+  NOTICE emsmat: emissions updated -           25           4          17           2
+  NOTICE metpos: (mtime,ftime) -     65897460    65897340
+  NOTICE metinp: AWRF 1  940  304  198  209   55 65897460 25  4 17  3
+  NOTICE   main:           20    65897401        9182   57035240.0    
+  NOTICE   main:           20    65897402        9199   57045700.0    
+  NOTICE   main:           20    65897403        9216   57056168.0    
+  NOTICE   main:           20    65897404        9233   57066632.0    
+  NOTICE   main:           20    65897405        9250   57077084.0    
+  NOTICE   main:           20    65897406        9267   57087548.0    
+  NOTICE   main:           20    65897407        9284   57098008.0    
+  NOTICE   main:           20    65897408        9301   57108464.0    
+  NOTICE   main:           20    65897409        9318   57118928.0    
+  NOTICE   main:           20    65897410        9335   57129388.0    
+  NOTICE   main:           20    65897411        9352   57139836.0    
+  NOTICE   main:           20    65897412        9369   57150296.0    
+  NOTICE   main:           20    65897413        9386   57160752.0    
+  NOTICE   main:           20    65897414        9403   57171208.0    
+  NOTICE   main:           20    65897415        9420   57181664.0    
+  NOTICE   main:           20    65897416        9437   57192104.0    
+  NOTICE   main:           20    65897417        9454   57202552.0    
+  NOTICE   main:           20    65897418        9471   57213008.0    
+  NOTICE   main:           20    65897419        9488   57223468.0    
+  NOTICE   main:           20    65897420        9505   57233924.0    
+  NOTICE   main:           20    65897421        9522   57244356.0    
+  NOTICE   main:           20    65897422        9539   57254820.0    
+  NOTICE   main:           20    65897423        9556   57265276.0    
+  NOTICE   main:           20    65897424        9573   57275740.0    
+  NOTICE   main:           20    65897425        9590   57286180.0    
+  NOTICE   main:           20    65897426        9607   57296640.0    
+  NOTICE   main:           20    65897427        9624   57307076.0    
+  NOTICE   main:           20    65897428        9641   57317532.0    
+  NOTICE   main:           20    65897429        9658   57327956.0    
+  NOTICE   main:           20    65897430        9675   57338412.0    
+  NOTICE   main:           20    65897431        9692   57348856.0    
+  NOTICE   main:           20    65897432        9709   57359316.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  344  218  201   39 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  344  218   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  344  218  201   39
+  NOTICE metinp: AWRF 1  627  344  218  201   39 65897400 25  4 17  2
+  NOTICE metinp: AWRF 1  940  344  218  201   39 65897460 25  4 17  3
+  NOTICE   main:           20    65897433        9726   57369772.0    
+  NOTICE   main:           20    65897434        9743   57380220.0    
+  NOTICE   main:           20    65897435        9760   57390656.0    
+  NOTICE   main:           20    65897436        9777   57401112.0    
+  NOTICE   main:           20    65897437        9794   57411568.0    
+  NOTICE   main:           20    65897438        9811   57421996.0    
+  NOTICE   main:           20    65897439        9828   57432444.0    
+  NOTICE   main:           20    65897440        9845   57442908.0    
+  NOTICE   main:           20    65897441        9862   57453344.0    
+  NOTICE   main:           20    65897442        9879   57463780.0    
+  NOTICE   main:           20    65897443        9896   57474216.0    
+  NOTICE   main:           20    65897444        9913   57484664.0    
+  NOTICE   main:           20    65897445        9930   57495108.0    
+  NOTICE   main:           20    65897446        9947   57505556.0    
+  NOTICE   main:           20    65897447        9964   57516000.0    
+  NOTICE   main:           20    65897448        9981   57526448.0    
+  NOTICE   main:           20    65897449        9998   57536908.0    
+  NOTICE   main:           20    65897450       10015   57547352.0    
+  NOTICE   main:           20    65897451       10032   57557784.0    
+  NOTICE   main:           20    65897452       10049   57568220.0    
+  NOTICE   main:           20    65897453       10066   57578660.0    
+  NOTICE   main:           20    65897454       10083   57589116.0    
+  NOTICE   main:           20    65897455       10100   57599576.0    
+  NOTICE   main:           20    65897456       10117   57610008.0    
+  NOTICE   main:           20    65897457       10134   57620444.0    
+  NOTICE   main:           20    65897458       10151   57630872.0    
+  NOTICE   main:           20    65897459       10168   57641320.0    
+  NOTICE   main:           20    65897460       10185   57651776.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  382  243  194   27
+  NOTICE emsmat: emissions updated -           25           4          17           3
+  NOTICE metpos: (mtime,ftime) -     65897520    65897400
+  NOTICE metinp: AWRF 1 1253  344  218  201   39 65897520 25  4 17  4
+  NOTICE   main:           21    65897461       10202   57660584.0    
+  NOTICE   main:           21    65897462       10219   57669400.0    
+  NOTICE   main:           21    65897463       10236   57678208.0    
+  NOTICE   main:           21    65897464       10253   57687012.0    
+  NOTICE   main:           21    65897465       10270   57695808.0    
+  NOTICE   main:           21    65897466       10287   57704620.0    
+  NOTICE   main:           21    65897467       10304   57713412.0    
+  NOTICE   main:           21    65897468       10321   57722224.0    
+  NOTICE   main:           21    65897469       10338   57731008.0    
+  NOTICE   main:           21    65897470       10355   57739816.0    
+  NOTICE   main:           21    65897471       10372   57748604.0    
+  NOTICE   main:           21    65897472       10389   57757404.0    
+  NOTICE   main:           21    65897473       10406   57766208.0    
+  NOTICE   main:           21    65897474       10423   57775012.0    
+  NOTICE   main:           21    65897475       10440   57783812.0    
+  NOTICE   main:           21    65897476       10457   57792612.0    
+  NOTICE   main:           21    65897477       10474   57801424.0    
+  NOTICE   main:           21    65897478       10491   57810228.0    
+  NOTICE   main:           21    65897479       10508   57819032.0    
+  NOTICE   main:           21    65897480       10525   57827852.0    
+  NOTICE   main:           21    65897481       10542   57836660.0    
+  NOTICE   main:           21    65897482       10559   57845444.0    
+  NOTICE   main:           21    65897483       10576   57854220.0    
+  NOTICE   main:           21    65897484       10593   57863008.0    
+  NOTICE   main:           21    65897485       10610   57871808.0    
+  NOTICE   main:           21    65897486       10627   57880604.0    
+  NOTICE   main:           21    65897487       10644   57889408.0    
+  NOTICE   main:           21    65897488       10661   57898192.0    
+  NOTICE   main:           21    65897489       10678   57906996.0    
+  NOTICE   main:           21    65897490       10695   57915804.0    
+  NOTICE   main:           21    65897491       10712   57924616.0    
+  NOTICE   main:           21    65897492       10729   57933400.0    
+  NOTICE   main:           21    65897493       10746   57942208.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  382  243  194   27 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  382  243   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  382  243  194   27
+  NOTICE metinp: AWRF 1  940  382  243  194   27 65897460 25  4 17  3
+  NOTICE metinp: AWRF 1 1253  382  243  194   27 65897520 25  4 17  4
+  NOTICE   main:           21    65897494       10763   57951008.0    
+  NOTICE   main:           21    65897495       10780   57959808.0    
+  NOTICE   main:           21    65897496       10797   57968612.0    
+  NOTICE   main:           21    65897497       10814   57977408.0    
+  NOTICE   main:           21    65897498       10831   57986216.0    
+  NOTICE   main:           21    65897499       10848   57995016.0    
+  NOTICE   main:           21    65897500       10865   58003816.0    
+  NOTICE   main:           21    65897501       10882   58012624.0    
+  NOTICE   main:           21    65897502       10899   58021412.0    
+  NOTICE   main:           21    65897503       10916   58030212.0    
+  NOTICE   main:           21    65897504       10933   58039020.0    
+  NOTICE   main:           21    65897505       10950   58047808.0    
+  NOTICE   main:           21    65897506       10967   58056608.0    
+  NOTICE   main:           21    65897507       10984   58065404.0    
+  NOTICE   main:           21    65897508       11001   58074204.0    
+  NOTICE   main:           21    65897509       11018   58083008.0    
+  NOTICE   main:           21    65897510       11035   58091804.0    
+  NOTICE   main:           21    65897511       11052   58100600.0    
+  NOTICE   main:           21    65897512       11069   58109416.0    
+  NOTICE   main:           21    65897513       11086   58118224.0    
+  NOTICE   main:           21    65897514       11103   58127040.0    
+  NOTICE   main:           21    65897515       11120   58135852.0    
+  NOTICE   main:           21    65897516       11137   58144648.0    
+  NOTICE   main:           21    65897517       11154   58153460.0    
+  NOTICE   main:           21    65897518       11171   58162272.0    
+  NOTICE   main:           21    65897519       11188   58171076.0    
+  NOTICE   main:           21    65897520       11205   58179880.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  430  272  179   11
+  NOTICE emsmat: emissions updated -           25           4          17           4
+  NOTICE metpos: (mtime,ftime) -     65897580    65897460
+  NOTICE metinp: AWRF 1 1566  382  243  194   27 65897580 25  4 17  5
+  NOTICE   main:           22    65897521       11222   58187408.0    
+  NOTICE   main:           22    65897522       11239   58194928.0    
+  NOTICE   main:           22    65897523       11256   58202456.0    
+  NOTICE   main:           22    65897524       11273   58209976.0    
+  NOTICE   main:           22    65897525       11290   58217504.0    
+  NOTICE   main:           22    65897526       11307   58225008.0    
+  NOTICE   main:           22    65897527       11324   58232528.0    
+  NOTICE   main:           22    65897528       11341   58240056.0    
+  NOTICE   main:           22    65897529       11358   58247588.0    
+  NOTICE   main:           22    65897530       11375   58255112.0    
+  NOTICE   main:           22    65897531       11392   58262644.0    
+  NOTICE   main:           22    65897532       11409   58270168.0    
+  NOTICE   main:           22    65897533       11426   58277700.0    
+  NOTICE   main:           22    65897534       11443   58285240.0    
+  NOTICE   main:           22    65897535       11460   58292768.0    
+  NOTICE   main:           22    65897536       11477   58300292.0    
+  NOTICE   main:           22    65897537       11494   58307816.0    
+  NOTICE   main:           22    65897538       11511   58315356.0    
+  NOTICE   main:           22    65897539       11528   58322884.0    
+  NOTICE   main:           22    65897540       11545   58330416.0    
+  NOTICE   main:           22    65897541       11562   58337940.0    
+  NOTICE   main:           22    65897542       11579   58345472.0    
+  NOTICE   main:           22    65897543       11596   58353008.0    
+  NOTICE   main:           22    65897544       11613   58360532.0    
+  NOTICE   main:           22    65897545       11630   58368040.0    
+  NOTICE   main:           22    65897546       11647   58375584.0    
+  NOTICE   main:           22    65897547       11664   58383120.0    
+  NOTICE   main:           22    65897548       11681   58390640.0    
+  NOTICE   main:           22    65897549       11698   58398176.0    
+  NOTICE   main:           22    65897550       11715   58405700.0    
+  NOTICE   main:           22    65897551       11732   58413232.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  430  272  179   11 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  430  272   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  430  272  179   11
+  NOTICE metinp: AWRF 1 1253  430  272  179   11 65897520 25  4 17  4
+  NOTICE metinp: AWRF 1 1566  430  272  179   11 65897580 25  4 17  5
+  NOTICE   main:           22    65897552       11749   58420756.0    
+  NOTICE   main:           22    65897553       11766   58428288.0    
+  NOTICE   main:           22    65897554       11783   58435804.0    
+  NOTICE   main:           22    65897555       11800   58443336.0    
+  NOTICE   main:           22    65897556       11817   58450860.0    
+  NOTICE   main:           22    65897557       11834   58458376.0    
+  NOTICE   main:           22    65897558       11851   58465916.0    
+  NOTICE   main:           22    65897559       11868   58473440.0    
+  NOTICE   main:           22    65897560       11885   58480956.0    
+  NOTICE   main:           22    65897561       11902   58488480.0    
+  NOTICE   main:           22    65897562       11919   58496008.0    
+  NOTICE   main:           22    65897563       11936   58503528.0    
+  NOTICE   main:           22    65897564       11953   58511076.0    
+  NOTICE   main:           22    65897565       11970   58518608.0    
+  NOTICE   main:           22    65897566       11987   58526124.0    
+  NOTICE   main:           22    65897567       12004   58533656.0    
+  NOTICE   main:           22    65897568       12021   58541172.0    
+  NOTICE   main:           22    65897569       12038   58548692.0    
+  NOTICE   main:           22    65897570       12055   58556220.0    
+  NOTICE   main:           22    65897571       12072   58563736.0    
+  NOTICE   main:           22    65897572       12089   58571268.0    
+  NOTICE   main:           22    65897573       12106   58578796.0    
+  NOTICE   main:           22    65897574       12123   58586312.0    
+  NOTICE   main:           22    65897575       12140   58593836.0    
+  NOTICE   main:           22    65897576       12157   58601364.0    
+  NOTICE   main:           22    65897577       12174   58608888.0    
+  NOTICE   main:           22    65897578       12191   58616412.0    
+  NOTICE   main:           22    65897579       12208   58623928.0    
+  NOTICE   main:           22    65897580       12225   58631464.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  476  307  165    1
+  NOTICE emsmat: emissions updated -           25           4          17           5
+  NOTICE metpos: (mtime,ftime) -     65897640    65897520
+  NOTICE metinp: AWRF 1 1879  430  272  179   11 65897640 25  4 17  6
+  NOTICE   main:           23    65897581       12242   58637908.0    
+  NOTICE   main:           23    65897582       12259   58644344.0    
+  NOTICE   main:           23    65897583       12276   58650804.0    
+  NOTICE   main:           23    65897584       12293   58657248.0    
+  NOTICE   main:           23    65897585       12310   58663696.0    
+  NOTICE   main:           23    65897586       12327   58670152.0    
+  NOTICE   main:           23    65897587       12344   58676592.0    
+  NOTICE   main:           23    65897588       12361   58683000.0    
+  NOTICE   main:           23    65897589       12378   58689444.0    
+  NOTICE   main:           23    65897590       12395   58695908.0    
+  NOTICE   main:           23    65897591       12412   58702340.0    
+  NOTICE   main:           23    65897592       12429   58708780.0    
+  NOTICE   main:           23    65897593       12446   58715220.0    
+  NOTICE   main:           23    65897594       12463   58721660.0    
+  NOTICE   main:           23    65897595       12480   58728104.0    
+  NOTICE   main:           23    65897596       12497   58734528.0    
+  NOTICE   main:           23    65897597       12514   58740976.0    
+  NOTICE   main:           23    65897598       12531   58747408.0    
+  NOTICE   main:           23    65897599       12548   58753848.0    
+  NOTICE   main:           23    65897600       12565   58760292.0    
+  NOTICE   main:           23    65897601       12582   58766744.0    
+  NOTICE   main:           23    65897602       12599   58773200.0    
+  NOTICE   main:           23    65897603       12616   58779644.0    
+  NOTICE   main:           23    65897604       12633   58786104.0    
+  NOTICE   main:           23    65897605       12650   58792548.0    
+  NOTICE   main:           23    65897606       12667   58799004.0    
+  NOTICE   main:           23    65897607       12684   58805436.0    
+  NOTICE   main:           23    65897608       12701   58811872.0    
+  NOTICE   main:           23    65897609       12718   58818324.0    
+  NOTICE   main:           23    65897610       12735   58824760.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  476  307  165    1 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  476  307   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  476  307  165    1
+  NOTICE metinp: AWRF 1 1566  476  307  165    1 65897580 25  4 17  5
+  NOTICE metinp: AWRF 1 1879  476  307  165    1 65897640 25  4 17  6
+  NOTICE   main:           23    65897611       12752   58831212.0    
+  NOTICE   main:           23    65897612       12769   58837656.0    
+  NOTICE   main:           23    65897613       12786   58844092.0    
+  NOTICE   main:           23    65897614       12803   58850536.0    
+  NOTICE   main:           23    65897615       12820   58856968.0    
+  NOTICE   main:           23    65897616       12837   58863384.0    
+  NOTICE   main:           23    65897617       12854   58869828.0    
+  NOTICE   main:           23    65897618       12871   58876284.0    
+  NOTICE   main:           23    65897619       12888   58882720.0    
+  NOTICE   main:           23    65897620       12905   58889152.0    
+  NOTICE   main:           23    65897621       12922   58895608.0    
+  NOTICE   main:           23    65897622       12939   58902048.0    
+  NOTICE   main:           23    65897623       12956   58908500.0    
+  NOTICE   main:           23    65897624       12973   58914944.0    
+  NOTICE   main:           23    65897625       12990   58921388.0    
+  NOTICE   main:           23    65897626       13007   58927828.0    
+  NOTICE   main:           23    65897627       13024   58934284.0    
+  NOTICE   main:           23    65897628       13041   58940732.0    
+  NOTICE   main:           23    65897629       13058   58947184.0    
+  NOTICE   main:           23    65897630       13075   58953640.0    
+  NOTICE   main:           23    65897631       13092   58960080.0    
+  NOTICE   main:           23    65897632       13109   58966536.0    
+  NOTICE   main:           23    65897633       13126   58972972.0    
+  NOTICE   main:           23    65897634       13143   58979420.0    
+  NOTICE   main:           23    65897635       13160   58985876.0    
+  NOTICE   main:           23    65897636       13177   58992324.0    
+  NOTICE   main:           23    65897637       13194   58998776.0    
+  NOTICE   main:           23    65897638       13211   59005184.0    
+  NOTICE   main:           23    65897639       13228   59011636.0    
+  NOTICE   main:           23    65897640       13245   59018084.0    
+  NOTICE advrng: (kg ,xyr,xy1) -  1  642  840    1    1
+  NOTICE emsmat: emissions updated -           25           4          17           6
+  NOTICE metpos: (mtime,ftime) -     65897700    65897580
+  NOTICE metinp: AWRF 1 2192  476  307  165    1 65897700 25  4 17  7
+  NOTICE   main:           24    65897641       13262   59023592.0    
+  NOTICE   main:           24    65897642       13279   59029088.0    
+  NOTICE   main:           24    65897643       13296   59034572.0    
+  NOTICE   main:           24    65897644       13313   59040076.0    
+  NOTICE   main:           24    65897645       13330   59045592.0    
+  NOTICE   main:           24    65897646       13347   59051104.0    
+  NOTICE   main:           24    65897647       13364   59056604.0    
+  NOTICE   main:           24    65897648       13381   59062128.0    
+  NOTICE   main:           24    65897649       13398   59067632.0    
+  NOTICE   main:           24    65897650       13415   59073124.0    
+  NOTICE   main:           24    65897651       13432   59078624.0    
+  NOTICE   main:           24    65897652       13449   59084140.0    
+  NOTICE   main:           24    65897653       13466   59089640.0    
+  NOTICE   main:           24    65897654       13483   59095120.0    
+  NOTICE   main:           24    65897655       13500   59100616.0    
+  NOTICE   main:           24    65897656       13517   59106124.0    
+ WARNING metpos: off spatial domain of all grids
+  NOTICE   main:           24    65897657       13534   59101152.0    
+  NOTICE   main:           24    65897658       13551   59106636.0    
+  NOTICE   main:           24    65897659       13568   59112124.0    
+  NOTICE   main:           24    65897660       13585   59117640.0    
+  NOTICE   main:           24    65897661       13602   59123140.0    
+  NOTICE   main:           24    65897662       13619   59118168.0    
+  NOTICE   main:           24    65897663       13636   59123680.0    
+  NOTICE   main:           24    65897664       13653   59129184.0    
+  NOTICE   main:           24    65897665       13670   59134696.0    
+  NOTICE metsub: (kg ,xyr,xy1) -     1  642  840    1    1 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  642  840   33
+  NOTICE metgrd: (kg, xyr,xy1) -     1  642  840    1    1
+  NOTICE metinp: AWRF 1 1879  642  840    1    1 65897640 25  4 17  6
+  NOTICE metinp: AWRF 1 2192  642  840    1    1 65897700 25  4 17  7
+  NOTICE   main:           24    65897666       13687   59140204.0    
+  NOTICE   main:           24    65897667       13704   59145720.0    
+  NOTICE   main:           24    65897668       13721   59140164.0    
+  NOTICE   main:           24    65897669       13738   59145664.0    
+  NOTICE   main:           24    65897670       13755   59140708.0    
+  NOTICE   main:           24    65897671       13772   59146216.0    
+  NOTICE   main:           24    65897672       13789   59151716.0    
+  NOTICE   main:           24    65897673       13806   59157208.0    
+  NOTICE   main:           24    65897674       13823   59162716.0    
+  NOTICE   main:           24    65897675       13840   59168228.0    
+  NOTICE   main:           24    65897676       13857   59173708.0    
+  NOTICE   main:           24    65897677       13874   59168148.0    
+  NOTICE   main:           24    65897678       13891   59163188.0    
+  NOTICE   main:           24    65897679       13908   59168664.0    
+  NOTICE   main:           24    65897680       13925   59174156.0    
+  NOTICE   main:           24    65897681       13942   59168600.0    
+  NOTICE   main:           24    65897682       13959   59163648.0    
+  NOTICE   main:           24    65897683       13976   59169152.0    
+  NOTICE   main:           24    65897684       13993   59174640.0    
+  NOTICE   main:           24    65897685       14010   59169680.0    
+  NOTICE   main:           24    65897686       14027   59131544.0    
+  NOTICE   main:           24    65897687       14044   59125988.0    
+  NOTICE   main:           24    65897688       14061   59120436.0    
+  NOTICE   main:           24    65897689       14078   59125964.0    
+  NOTICE   main:           24    65897690       14095   59120412.0    
+  NOTICE   main:           24    65897691       14112   59115464.0    
+  NOTICE   main:           24    65897692       14129   59120964.0    
+  NOTICE   main:           24    65897693       14146   59093876.0    
+  NOTICE   main:           24    65897694       14163   59088316.0    
+  NOTICE   main:           24    65897695       14180   59093808.0    
+  NOTICE   main:           24    65897696       14197   59099316.0    
+  NOTICE   main:           24    65897697       14214   59082688.0    
+  NOTICE   main:           24    65897698       14231   59066076.0    
+  NOTICE   main:           24    65897699       14248   59060516.0    
+  NOTICE   main:           24    65897700       14265   59066004.0    
+                                                        Index  Height %Mass
+                                                           30  8710.0  0.02
+                                                           29  8130.0  0.34
+                                                           28  7570.0  1.17
+                                                           27  7030.0  2.58
+                                                           26  6510.0  4.94
+                                                           25  6010.0  7.25
+                                                           24  5530.0  8.29
+                                                           23  5070.0  9.05
+                                                           22  4630.0  8.75
+                                                           21  4210.0  8.60
+                                                           20  3810.0  7.45
+                                                           19  3430.0  6.17
+                                                           18  3070.0  5.24
+                                                           17  2730.0  3.95
+                                                           16  2410.0  3.06
+                                                           15  2110.0  2.38
+                                                           14  1830.0  1.97
+                                                           13  1570.0  1.58
+                                                           12  1330.0  1.67
+                                                           11  1110.0  1.88
+                                                           10   910.0  2.16
+                                                            9   730.0  1.89
+                                                            8   570.0  1.78
+                                                            7   430.0  1.65
+                                                            6   310.0  1.33
+                                                            5   210.0  1.19
+                                                            4   130.0  0.93
+                                                            3    70.0  0.91
+                                                            2    30.0  0.69
+                                                            1    10.0  1.14
